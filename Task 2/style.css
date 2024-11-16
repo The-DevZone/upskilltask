@@ -1,0 +1,41 @@
+body{
+    background-color: orange;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background:  lime;
+}
+#bglim{
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+#para{
+    color: green;
+}
+
+.inc-pera{
+    font-size: 25px;
+    color: black;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+
+.color-blue{
+    color: blue;
+}
+.color-red{
+    color: red;
+}

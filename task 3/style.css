@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    margin: 10% 30%;
+}
+
+.image img{
+    width: 37vw;
+    height: auto; 
+    
+
+}
+
+
+
+button{
+    width: 37vw;
+    padding: 10px 0px;
+
+    font-size: 20px;
+    color: #fff;
+    
+    background: linear-gradient(90deg, rgba(234,57,57,1) 0%, rgba(155,255,0,1) 100%);
+}
