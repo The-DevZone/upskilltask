@@ -1,35 +1,127 @@
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* header{
-    display: flex;
-} */
-
-nav{
-    display: inline;
-
-}
-.logo{
-    
-    display: inline;
-
+body {
+    font-family: Arial, sans-serif;
 }
 
- .logo h4{
-    display: inline-block;
- }
+.navbar {
+    background-color: whitesmoke;
+    padding: 0.8rem 2rem;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
 
- ul{
+.logo {
     display: inline;
- }
+    font-size: 20px;
 
- ul li {
-    display: inline-block;
- }
+}
 
- .btn-user{
+.nav-links {
     display: inline;
- }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 35%;
+
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.user-name {
+    display: inline;
+    float: right;
+    color: white;
+    font-size: 1rem;
+    background-color: lightblue;
+    color: darkcyan;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* hero section start */
+
+.hero{
+    padding: 3rem 10%;
+    margin-top: 18px;  
+    width: 100%;
+    height: 100%;
+}
+
+.left-side{
+    display: inline-block;
+}
+
+.color-blue{
+    color: #30B4FF;
+}
+
+.pbottom-1{
+    padding-bottom: 20px;
+    line-height: 60px;
+    font-size: 3.2rem;
+    font-weight: 500;
+    width: 30rem;
+    /* word-spacing: 20px; */
+    line-height: 4.5rem;
+    letter-spacing: 0.2rem;
+    text-align: start;
+}
+
+.pbottom-2{
+    padding-bottom: 20px;
+    font-weight: 200;
+    max-width: 30rem;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.pbottom-3 {
+    padding: 18px 30px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.1rem;
+}
+.right-side{
+    /* height: 100vh; */
+
+    display: inline;
+    /* margin-top: 200px; */
+    padding: 0px 100px;
+    padding-top:25px ;
+    /* background-color: yellow; */
+}
+.right-side img{
+    display: inline;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 25rem;
+    height: 25rem;
+    text-align: start;
+    background-color: green;
+    /* padding: 20px; */
+    /* line-height: 100px; */
+}
+
+
+
+
