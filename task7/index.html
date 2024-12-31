@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mobile Side Navbar</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile responssive</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">LOGO</div>
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    <div class="icon">
-      <label for="menu-toggle">&#9776;</label>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#"><span>Logo</span></a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href=" " class="user-name">User</a></li>
+        </ul>
+
+        </main>
+    </nav>
+
+    <div class="menu-container">
+        <!-- Menu Toggler Checkbox -->
+        <input type="checkbox" id="menuToggle" class="menu-toggle-checkbox">
+
+        <!-- Label as Toggle Button -->
+        <label for="menuToggle" class="menu-toggle-button">☰</label>
+
+        <!-- Slide-Out Menu -->
+        <nav class="side-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#AboutUs">AboutUs</a></li>
+                <li><a href="#contactUs">contactUs</a></li>
+            </ul>
+        </nav>
     </div>
-  </nav>
-
-  <!-- Hidden Checkbox -->
-  <input type="checkbox" id="menu-toggle" class="menu-toggle">
-
-  <!-- Side Navigation -->
-  <div class="side-nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-
-  <!-- Overlay -->
-  <div class="overlay"></div>
 
 
-  <div class="hero">
-    <div class="left-side">
-    <h1 class="pbottom-1">Revilize your  cloths  with  Expert  <span class="color-blue"> Laundery service! </span></h1>
-    <p class="pbottom-2">.Schudal a pickup  From premium  dry clean to swift wash and fold, From premium  dry clean to swift wash and fold, From premium  dry clean to swift wash and fold, dry clean to swift wash and fold  </p>
-    <button class="pbottom-3" > Book a service today </button>
+    <main class="container">
 
-</div>
+        <div>
+            <h1>
+                Revitalize Your <br>
+                clothes With Exepert <br>
+                <span>Laundry Servies!</span>
+            </h1>
 
-<div class="right-side">
-    <img src="images/image.jpg" alt="">
-</div>
-</div>
+            <span class="article">
+
+                Laundry services are convenient solutions for managing your clothes <br>with care and efficiency.
+                These
+                services typically offer washing,<br> drying, ironing, and folding to ensure garments are clean and
+                presentable.<br> Many providers use advanced machines and eco-friendly<br> detergents to maintain
+                fabric
+                quality.
+            </span>
+
+            <button>Book a service today!</button>
+
+        </div>
+        <div>
+            <img src="images/housekeeping-cleaning-kit-supplies_18591-49554.jpg" height="350px" width="350px" alt="">
+        </div>
 
 </body>
+
 </html>

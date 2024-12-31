@@ -14,18 +14,11 @@
     
 
 }
-
-
-
 button{
     width: 37vw;
     height: 5vh;
-    /* padding: 10px; */
-    /* display: inline; */
-
     font-size: 2vmin;
     color: #fff;
-    
     background: linear-gradient(90deg, rgba(234,57,57,1) 0%, rgba(155,255,0,1) 100%);
 }
 
